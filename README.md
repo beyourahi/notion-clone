@@ -1,4 +1,4 @@
-<h1 align="center">Web App Template</h1>
+<h1 align="center">Notion Clone</h1>
 
 ### Technologies Used
 
