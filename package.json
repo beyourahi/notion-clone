@@ -1,0 +1,39 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "pnpm dlx prettier --write . && next dev --experimental-https",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "prettier": "pnpm dlx prettier --write .",
+        "prettier-check": "pnpm dlx prettier --check ."
+    },
+    "dependencies": {
+        "@clerk/nextjs": "^4.27.4",
+        "@tanstack/react-query": "^4.0.0",
+        "@trpc/client": "^10.44.1",
+        "@trpc/next": "^10.44.1",
+        "@trpc/react-query": "^10.44.1",
+        "@trpc/server": "^10.44.1",
+        "@types/node": "^20.10.3",
+        "@types/react": "^18.2.42",
+        "@types/react-dom": "^18.2.17",
+        "autoprefixer": "^10.4.16",
+        "class-variance-authority": "^0.7.0",
+        "clsx": "^2.0.0",
+        "eslint": "^8.55.0",
+        "eslint-config-next": "^14.0.3",
+        "lucide-react": "^0.294.0",
+        "next": "14.0.3",
+        "postcss": "^8.4.32",
+        "prettier": "^3.1.0",
+        "prettier-plugin-tailwindcss": "^0.5.9",
+        "react": "^18",
+        "react-dom": "^18",
+        "tailwind-merge": "^2.1.0",
+        "tailwindcss": "^3.3.6",
+        "tailwindcss-animate": "^1.0.7",
+        "typescript": "^5.3.2",
+        "zod": "^3.22.4"
+    }
+}
